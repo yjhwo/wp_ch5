@@ -1,0 +1,56 @@
+*{margin:0; padding:0}
+body{
+	font-family: "맑은 고딕", "돋움";
+	font-size: 0.75em;
+	color: #333;
+}
+
+
+/* 테이블 예제 스타일*/
+.tbl-ex{
+	margin-top: 50px;
+	margin-right:auto;
+	margin-left:auto;
+	m!argin: 50px auto 0 auto;
+	
+	border-collapse: collapse;
+}
+
+/* 여기가 우선순위가 더 높다 */
+.tbl-ex, .tbl-ex th, .tbl-ex td{
+	bo!rder-style: solid;
+	b!order-color: #333;
+	border: 1px solid #333;
+	border-width:1px 0 1px 0;	
+}
+
+.tbl-ex th, .tbl-ex td{
+	padding:8px;
+	border-left:0px;
+	border-right:0px;
+}
+
+.tbl-ex th{
+	background-color: #999;
+	font-size: 1.1em;
+	color: #fff;
+	
+	border-top-width:2px;
+	border-bottom-width:2px;
+}
+
+.tbl-ex td{
+	border-style:dotted;
+}
+
+.tbl-ex tr:hover{
+	background-color: #fc6;
+	cursor:pointer; 
+	c!ursor:help;
+	c!ursor:all-scroll;
+	c!ursor:default;
+}
+
+.tbl-ex tr.even td{
+	background-color: #E8ECF6;
+}
